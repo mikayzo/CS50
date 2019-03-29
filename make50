@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [[ $# -eq 1 ]]; then
+    if [[ ! -e $1 ]]; then
+        echo "ERROR: File doesn't exist"
+        exit 2
+    elif [[ $(file $1 | awk -F' ' '{ print $2 }') == "C" ]]; then
+        filename=$(echo $1 | awk -F'.' '{ print $1 }')
+        clang -fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow $filename.c -lcrypt -lcs50 -lm -o $filename
+    else
+        echo "ERROR: Specified file not C source code"
+        exit 3
+    fi
+else
+    echo "usage ./make50 <filename.c>"
+    exit 1
+fi
+
+
