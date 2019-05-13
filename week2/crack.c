@@ -1,6 +1,6 @@
 // Dziugas Mikalkenas
 // 5 April 2019
-// Problem Set 1
+// Problem Set 2
 
 #include <cs50.h>
 #include <stdio.h>
