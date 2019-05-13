@@ -1,3 +1,7 @@
+// Dziugas Mikalkenas
+// 8 May 2019
+// Problem Set 3
+
 // Copies a BMP file
 
 #include <stdio.h>
