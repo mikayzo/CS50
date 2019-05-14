@@ -1,4 +1,4 @@
-whodunit.c:
+## whodunit.c:
 
     Usage: ./whodunit <infile> <outfile>
 
@@ -6,7 +6,7 @@ whodunit.c:
 
     You can test it with clue.bmp image.   
 
-resize.c:
+## resize.c:
 
     Usage: ./resize <scale> <infile> <outfile>
 
@@ -14,9 +14,8 @@ resize.c:
 
     You can test it with small.bmp or large.bmp.
 
-recover.c:
+## recover.c:
 
     Usage: ./recover <filename>
 
     This program recovers JPEG images from RAW file by iterating through RAW bytes and looking for JPEG headers.
-
