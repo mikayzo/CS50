@@ -49,7 +49,7 @@ int main(int argc, string argv[])
     }
     else
     {
-        printf("Usage: ./caesar key\n");
+        printf("Usage: ./caesar <key>\n");
         return 1;
     }
 }
@@ -61,7 +61,8 @@ int isInputValid(string prompt)
     {
         if (!isdigit(prompt[i]))
         {
-            printf("Usage: ./caesar key\n");
+            printf("Usage: ./caesar <key>\n");
+            printf("Usage: <key> is supposed to be a digit.\n");
             exit(1);
         }
     }

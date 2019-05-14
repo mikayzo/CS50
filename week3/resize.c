@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     // ensure proper usage
     if (argc != 4)
     {
-        fprintf(stderr, "Usage: copy scale infile outfile\n");
+        fprintf(stderr, "Usage: ./resize <scale> <infile> <outfile>\n");
         return 1;
     }
 

@@ -17,7 +17,7 @@ int main(int argc, string argv[])
 {
     if (argc != 2)
     {
-        printf("usage: ./crack <hash>\n");
+        printf("Usage: ./crack <hash>\n");
         return 1;
     }
 

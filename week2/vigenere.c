@@ -75,7 +75,7 @@ int main(int argc, string argv[])
     }
     else
     {
-        printf("Usage: ./caesar keyword\n");
+        printf("Usage: ./vigenere <keyword>\n");
         return 1;
     }
 }
@@ -87,7 +87,7 @@ int isInputAlpha(string prompt)
     {
         if (!isalpha(prompt[i]))
         {
-            printf("Usage: ./caesar keyword\n");
+            printf("Usage: ./vigenere <keyword>\n");
             exit(1);
         }
     }
