@@ -1,6 +1,6 @@
 ## speller.c:
 
-    Usage: speller [dictionary] text
+    Usage: ./speller [dictionary] text
 
     In this repository are two speller.c variants.
 
