@@ -1,15 +1,21 @@
 # Problem Sets for Harvard's 'CS50 Introduction to Computer Science'
 
-## Status:
+## Status
+
     Will update whenever I finish either a single task or the whole problem set
 
-## Usage:
+## Requirements
+Most of the docs and libraries can be found in this link:
     
-    * In order to compile these C source codes you can use `make50`: 
+    https://cs50.readthedocs.io/
+
+## Usage
+    
+    In order to compile these C source codes you can use `make50`: 
     
     ./make50 <filename.c>
     
-    * You can move `make50` to `/usr/local/bin/make50` in order to use it as: 
+    You can move `make50` to `/usr/local/bin/make50` in order to use it as: 
     
     make50 <filename.c>
     
