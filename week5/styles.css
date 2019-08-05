@@ -1,0 +1,43 @@
+/*
+ uses at least five (5) different CSS selectors
+ (e.g. tag (example), class (.example), or ID (#example)),
+ and within which you use a total of at least five (5) different CSS properties, such as font-size, or margin; and
+ ensure that your site looks nice on browsers both on mobile devices as well as laptops and desktops.
+*/
+
+body {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    background: powderblue;
+}
+
+th, td {
+    width: 33%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    float: none;
+    overflow: auto;
+}
+
+.copyright {
+    color: red;
+}
+
+#lol {
+    color: blue;
+    text-align: right;
+    text-decoration: underline;
+    font-family: "Monospace";
+}
